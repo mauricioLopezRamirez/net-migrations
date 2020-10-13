@@ -1,0 +1,7 @@
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.csprojAssemblyReference.cache
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.AssemblyInfoInputs.cache
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.AssemblyInfo.cs
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.csproj.CoreCompileInputs.cache
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.MvcApplicationPartsAssemblyInfo.cache
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.RazorAssemblyInfo.cache
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.0/net-migrations.RazorAssemblyInfo.cs
