@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace net_migrations.Author
+namespace net_migrations.Domain
 {
 
     public class Author{

@@ -29,7 +29,7 @@ namespace net_migrations
         {
             services.AddControllersWithViews();
             services.AddDbContext<net_migrationsDbContext>(
-                options => options.UseMySql(Configuration.GetConnectionString("mysql"))
+                options => options.UseMySQL(Configuration.GetConnectionString("mysql"))
             );
         }
 
