@@ -22,6 +22,11 @@ namespace net_migrations.Controllers
 
         public IActionResult Index()
         {
+
+            // var model = new List<Author>();
+            // model = _Net_migrationsDbContext.Authors.ToList();
+            
+            // ViewData["Message"] = 'asdf';
             return View();
         }
 

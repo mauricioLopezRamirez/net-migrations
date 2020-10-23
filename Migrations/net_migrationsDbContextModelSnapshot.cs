@@ -42,13 +42,25 @@ namespace net_migrations.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("varbinary(16)");
 
+                    b.Property<byte[]>("AuthorId")
+                        .HasColumnType("varbinary(16)");
+
                     b.Property<string>("Name")
                         .HasColumnType("varchar(20)")
                         .HasMaxLength(20);
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AuthorId");
+
                     b.ToTable("Books");
+                });
+
+            modelBuilder.Entity("net_migrations.Domain.Book", b =>
+                {
+                    b.HasOne("net_migrations.Domain.Author", "Author")
+                        .WithMany()
+                        .HasForeignKey("AuthorId");
                 });
 #pragma warning restore 612, 618
         }

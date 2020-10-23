@@ -25,21 +25,33 @@ namespace net_migrations.Migrations
                 columns: table => new
                 {
                     Id = table.Column<byte[]>(nullable: false),
-                    Name = table.Column<string>(maxLength: 20, nullable: true)
+                    Name = table.Column<string>(maxLength: 20, nullable: true),
+                    AuthorId = table.Column<byte[]>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Books", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Books_Authors_AuthorId",
+                        column: x => x.AuthorId,
+                        principalTable: "Authors",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Books_AuthorId",
+                table: "Books",
+                column: "AuthorId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Authors");
+                name: "Books");
 
             migrationBuilder.DropTable(
-                name: "Books");
+                name: "Authors");
         }
     }
 }
