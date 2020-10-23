@@ -75,3 +75,7 @@
 /home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
 /home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.1/Razor/Views/Author/Create.cshtml.g.cs
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.1/Razor/Views/Author/Index.cshtml.g.cs
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.1/Razor/Views/Book/Create.cshtml.g.cs
+/home/home/Documents/UNIVERSIDAD/2020-2/programacion/net-migrations/obj/Debug/netcoreapp3.1/Razor/Views/Book/Index.cshtml.g.cs
